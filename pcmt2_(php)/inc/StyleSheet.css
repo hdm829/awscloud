@@ -1,0 +1,7 @@
+body { background-color:#FFFFFF; margin-top:0px; margin-left:0px; margin-right:opx; margin-left:0px; margin-bottom:0px; font-family:Arial; font-size:9pt; color:#000000; }
+table { font-family:Arial; font-size:9pt; }
+input { font-family:Arial; font-size:9pt; height:18px; }
+td.question { padding-left:0px; }
+td.ex { padding-left:10px; }
+td.space { height:10px; }
+.text { font-family:Arial; font-size:9pt; background-color:#E6E6E6; }

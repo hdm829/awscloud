@@ -1,0 +1,23 @@
+<?php
+$DB_ADDR= "localhost";
+$DB_USER = "han38";
+$DBPW = "hdm1212*";
+$DB_NAME = "han38";
+
+
+
+$db = mysqli_connect( $DB_ADDR, $DB_USER, $DBPW, $DB_NAME);
+
+if ( mysqli_connect_errno() )
+{
+echo "DB 연결에 실패했습니다 " . mysqli_connect_error();
+}
+
+if($db) {
+         echo "DB Connect Successful";
+}  else  {
+
+          echo "DB Connect Fail:";
+}
+
+?>

@@ -1,0 +1,14 @@
+CREATE TABLE `wilde_result` (
+`email` VARCHAR( 50 ) NOT NULL ,
+`kname` VARCHAR( 50 ) NOT NULL ,
+`ename` VARCHAR( 50 ) NOT NULL ,
+`tel` VARCHAR( 15 ) NOT NULL ,
+`password` VARCHAR( 10 ) NOT NULL ,
+`PJ` FLOAT( 10 ) DEFAULT '0' NOT NULL ,
+`NS` FLOAT( 10 ) DEFAULT '0' NOT NULL ,
+`FT` FLOAT( 10 ) DEFAULT '0' NOT NULL ,
+`IE` FLOAT( 10 ) DEFAULT '0' NOT NULL ,
+UNIQUE (
+`email` 
+)
+) COMMENT = 'Stanford Wilde Test Result';
